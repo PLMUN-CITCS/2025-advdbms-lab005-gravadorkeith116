@@ -1,9 +1,8 @@
 USE `UniversityDB`;
 
-
 UPDATE `Students`
 SET `Email` = 'bob.j@example.com'
-WHERE `FirstName` = 'Bob' AND `LastName` = 'Johnson';
+WHERE `FirstName` = 'Bob' AND `LastName` = 'Johnson'; 
 
 UPDATE `Students`
 SET `Email` = 'bob.j@example.com'
